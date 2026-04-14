@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #5da3be;
+}
+
+header {
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(90deg, rgb(66, 142, 161), rgba(32, 156, 194, 0.507));
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav {
+    position: absolute;
+    right: 20px;
+}
+
+header a {
+    background: white;
+    color: #5da3be;
+    font-weight: bold;
+}
+
+main {
+    padding: 10px;
+}
+
+.servicio-principal {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.servicio-principal img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contenido-texto {
+    max-width: 450px;
+}
+
+.contenido-texto h3 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.contenido-texto p {
+    color: #555;
+}
+
+.servicio-principal article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+    max-width: 1000px;
+    margin: 0 auto;
+
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+#nuestros-servicios {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grid-servicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-servicios article {
+    background: white;
+}
+
+#nuestros-servicios article {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#nuestros-servicios article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+#nuestros-servicios img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+#nuestros-servicios h3 {
+    margin: 10px;
+    color: #c07015;
+}
+
+#nuestros-servicios p {
+    margin: 10px;
+    font-size: 14px;
+}
+
+.grid-team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.grid-team img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.grid-team article {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.grid-team article:hover {
+    transform: translateY(-5px);
+}
+
+#suscripcion article {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#suscripcion h3 {
+    text-align: center;
+    color: #c07015;
+    margin-bottom: 15px;
+}
+
+#suscripcion label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#suscripcion input,
+#suscripcion textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 650;
+
+    background-color: rgb(63, 147, 161);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: rgb(15, 112, 150);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+a:active {
+    transform: scale(0.95);
+}
+
+#suscripcion button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    
+    background: linear-gradient(135deg, #5da3be, #0e6f7c);
+    color: white;
+    border: none;
+    border-radius: 8px;
+
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: all 0.25s ease;
+}
+
+#suscripcion button:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.4)
+}
+
+#suscripcion button:active {
+    transform: scale(0.97);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.2);
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+section {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #c07015;
+}

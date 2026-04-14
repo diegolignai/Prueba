@@ -1,112 +1,147 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>Osorno computadores</h1>
-        </header>
-        <hr>
-        <nav>
-            <a href="#Registrarme">registrarme</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osorno Computadores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        </nav>
-        <hr>
-        <div class="servicio-principal">
-            <main>
-                <section id="Servicios">
-                   <article>
+<body>
+
+    <header>
+        <h1>Osorno Computadores</h1>
+
+    <nav>
+        <a href="#registrarme">Registrarme</a>
+    </nav>
+    
+    </header>
+    <main>
+
+        <aside id="info-extra">
+            <h3>Tips</h3>
+            <p>Mantén tu equipo actualizado para mejor rendimiento</p>
+        </aside>
+
+        <section class="servicio-principal">
+            <article>
+                <img src="imagenes/PRINCIPAL.png" alt="Computador de escritorio">
+
+                <div class="contenido-texto">
                     <h3>Soluciones, reparaciones y armado de equipos</h3>
-                    <img src="imagenes/PRINCIPAL.png">
-                    <p>Ofrecemos una amplia variedad de servicios y productos para los aficionados a la computación. Con más de 10 años de experiencia en el rubro, somos la mejor opción técnica en la región.</p>
-                    <a href="solicitar-contacto">SOLICITAR CONTACTO</a>
-                   </article> 
-                </section>
-                <hr>
-                 <section id="nuestros-servicios">
-                    <h2>Nuestros Servicios</h2>
-                    <div class="grid-servicios">
-                       <article>
-                            <h3>Formateo y SO</h3>
-                            <img src="imagenes/FORMATEO.jpg">
-                            <p>DESDE $25.000</p>
-                       </article> 
-                       <article>
-                            <h3>Armado de computadores</h3>
-                            <img src="imagenes/ARMADO.webp">
-                            <p>DESDE $70.000</p>
-                       </article>
-                       <article>
-                            <h3>Cambio de Pantalla</h3>
-                            <img src="imagenes/CAMBIO_PANTALLA.png">
-                            <p>DESDE $40.000</p>
-                       </article>
-                       <article>
-                            <h3>Recuperación de Datos</h3>
-                            <img src="imagenes/RECUPERACION.jpg">
-                            <p>DESDE $26.000</p>
-                       </article>
-                       <article>
-                            <h3>Instalación Software</h3>
-                            <img src="imagenes/INSTALACION_DE_SW.jpg">
-                            <p>DESDE $10.000</p>
-                       </article>
-                        <article>
-                            <h3>Soporte Remoto</h3> 
-                           <img src="imagenes/SOPORTE_REMOTO.png">
-                           <p>$10.000 /cada 15 min.</p>
-                        </article> 
-                    </div>
+                    <p>
+                Ofrecemos una amplia variedad de servicios y productos para los aficionados a la computación.
+                Con más de 10 años de experiencia en el rubro, somos la mejor opción técnica en la región.
+                </p>
+                <a href="#">Solicitar contacto</a>
+                </div>
+            </article>
+        </section>
 
-                    </section>
-                    <hr>
-                <section id="nuestros-team">
-                    <h2>Nuestro Team</h2>
-                    <div class="grid-team">
-                        <article>
-                            <h3>ANA LISA FUENTES</h3>
-                            <img src="imagenes/ANALISA.png">
-                            <p>Técnico en informatica especializada en el software, instalación de programas, errores funcionamiento, actualización y activación de software de terceros, recuperación de datos de discos dañados.</p>
-                            <a href="#Contactar">Contactar</a>
-                        </article>
-                        <article>
-                            <h3>ARMANDO TORRES</h3>
-                            <img src="imagenes/ARMANDOTORRES.jpg">
-                            <p>Tecnico en informatica, especializado en el armado de equipos nuevos, desarmado y mantenimiento de equipos, cambio de piezas, limpieza profunda de software, revisión electrica de los componentes.</p>
-                            <a href="#Contactar">Contactar</a>
-                        </article>
-                    </div>
-                </section>
-                <hr>
-                <section id="contacto">
-                    <h2>CONTACTO</h2>
-                </section> 
-                <section id="suscripcion">
-                    <article>
-                        <h3>cuentanos, ¿Qué necesitas hoy?</h3>
-                        <form>
-                            <label for="nombre_usuario">NOMBRE COMPLETO</label>
-                            <input type="text" id="nombre_usuario" placeholder="Tu Nombre">
-                            <br>
-                            <label for="correo_usuario">CORREO</label>
-                            <input type="email" id="correo_usuario" placeholder="tucorreo@gmail.com">
-                            <br>
-                            <label for="asunto">ASUNTO</label>
-                            <input type="text" id="asunto" placeholder="Consulta, sugerencia, etc.">
-                            <br>
-                            <label for="fecha">FECHA</label>
-                            <input type="date" id="fecha">
-                            <br>
-                            <label for="mensaje">MENSAJE</label>
-                             
-                        </form>
-                    </article>
+        <section id="nuestros-servicios">
+            <h2>Nuestros Servicios</h2>
 
-                </section>
-            </main>
-        </div>
-    </body>
+            <div class="grid-servicios">
+                <article>
+                    <h3>Formateo y SO</h3>
+                    <img src="imagenes/FORMATEO.jpg" alt="Servicio de formateo de computador">
+                    <p>DESDE $25.000</p>
+                </article>
+
+                <article>
+                    <h3>Armado de computadores</h3>
+                    <img src="imagenes/ARMADO.webp" alt="Servicio de armado de computadores">
+                    <p>DESDE $70.000</p>
+                </article>
+
+                <article>
+                    <h3>Cambio de Pantalla</h3>
+                    <img src="imagenes/CAMBIO_PANTALLA.png" alt="Servicio de cambio de pantalla">
+                    <p>DESDE $40.000</p>
+                </article>
+
+                <article>
+                    <h3>Recuperación de Datos</h3>
+                    <img src="imagenes/RECUPERACION.jpg" alt="Servicio de recuperación de archivos">
+                    <p>DESDE $26.000</p>
+                </article>
+
+                <article>
+                    <h3>Instalación Software</h3>
+                    <img src="imagenes/INSTALACION_DE_SW.jpg" alt="Servicio de instalación de software">
+                    <p>DESDE $10.000</p>
+                </article>
+
+                <article>
+                    <h3>Soporte Remoto</h3>
+                    <img src="imagenes/SOPORTE_REMOTO.png" alt="Servicio de soporte remoto">
+                    <p>$10.000 / cada 15 min.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="nuestro-team">
+            <h2>Nuestro Team</h2>
+
+            <div class="grid-team">
+                <article>
+                    <h3>Ana Lisa Fuentes</h3>
+                    <img src="imagenes/ANALISA.png" alt="Ana Lisa Fuentes">
+                    <p>
+                        Técnico en informática especializada en software, instalación de programas,
+                        errores de funcionamiento, actualización y recuperación de datos.
+                    </p>
+                    <a href="#">Contactar</a>
+                </article>
+
+                <article>
+                    <h3>Armando Torres</h3>
+                    <img src="imagenes/ARMANDOTORRES.jpg" alt="Armando Torres">
+                    <p>
+                        Técnico en informática, especializado en armado, mantenimiento,
+                        cambio de piezas y revisión eléctrica de componentes.
+                    </p>
+                    <a href="#">Contactar</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+        </section>
+
+        <section id="suscripcion">
+            <article>
+                <h3>Cuéntanos, ¿Qué necesitas hoy?</h3>
+
+                <form>
+                    <label for="nombre_usuario">Nombre completo</label>
+                    <input type="text" id="nombre_usuario" placeholder="Tu nombre">
+
+                    <label for="correo_usuario">Correo</label>
+                    <input type="email" id="correo_usuario" placeholder="tucorreo@gmail.com">
+
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" placeholder="Consulta, sugerencia, etc.">
+
+                    <label for="fecha">Fecha</label>
+                    <input type="date" id="fecha">
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje"></textarea>
+
+                    <button type="submit">ENVIAR CORREO</button>
+                </form>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© Osorno Computadores</p>
+    </footer>
+
+</body>
+</html>
